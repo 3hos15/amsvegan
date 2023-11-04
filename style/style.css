@@ -146,7 +146,13 @@ h1 {
     font-size: 1.5em;
 }
 
-main img {
+p {
+    font-family: 'inconsolata';
+    width: 90%;
+    font-size: 0.85em;
+}
+
+main .first {
     display: block;
     width: 80%;
     margin-left: auto;
@@ -154,7 +160,7 @@ main img {
     
 }
 
-main img:first-child {
+main .first {
     margin-top: 1em;
 }
 
@@ -164,4 +170,21 @@ main section p {
     align-items: center;
     /* width: 60%; */
 }
+
+main div {
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80%;
+}
+
+main div img {
+    width: 80%;
+}
+
+/* footer div {
+    padding: 2em;
+    background-color: black;
+} */
 
