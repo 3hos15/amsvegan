@@ -140,20 +140,33 @@ h1 {
     margin-bottom: 0.2em;
     text-align: center;
     font-family: 'arf';
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 h2 {
     margin-top: 1em;
     text-align: center;
     font-family: 'arf';
-    font-size: 1em;
+    font-size: 1.5em;
 }
+
+h3 {
+    margin-top: 1em;
+    text-align: center;
+    font-family: 'arf';
+    font-size: 1.2em;
+}
+
 
 p {
     font-family: 'inconsolata';
     width: 90%;
     font-size: 0.8em;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
 
 }
 
@@ -171,20 +184,14 @@ main .img {
 
 
 
-main section p {
+/* main section p {
     margin-top: 0;
+    justify-content: center;
     text-align: center;
     width: 60%;
-}
+} */
 
-main div {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width: 80%;
-}
+
 
 main div img {
     width: 80%;
@@ -202,13 +209,42 @@ main .gallery {
     margin: 1em;
 }
 
+body.review {
+    background-image: linear-gradient(white, #92bec3);
+}
 
-.review main img:first-child {
+.review footer div {
+    background-image: linear-gradient(#92bec3, white);
+
+}
+
+.review .star {
     margin-top: 1em;
     display: block;
     width: 20%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+main div {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* width: 90%; */
+}
+
+.review section div img {
+    width: 30%;
 }
 
 .over-mij main img:first-child {
@@ -219,8 +255,24 @@ main .gallery {
     margin-right: auto; 
 }
 
+.over-mij p {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
 footer div {
+    margin-top: 4em;
     padding: 2em;
     background-image: linear-gradient( #f9c9df, #fcf3f6);
 }
 
+.footerimage {
+    display: block;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
