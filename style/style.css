@@ -13,20 +13,17 @@
     src: url('../fonts/inconsolata.woff2') format('woff2');
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    /* background-image: linear-gradient(#fcf3f6, #f9c9df); */
-    background-color: #f9c9df;
-    background-image: url('../images/avbgop.png');
-    background-size: contain;
-    overscroll-behavior: none;
-}
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #f9c9df;
+    background-image: url('../images/avbgop.png');
+    background-size: contain;
+    overscroll-behavior: none;
 }
 
 a {
@@ -58,7 +55,6 @@ header {
     position: fixed;
     background-image: linear-gradient(white, #92bec3);
     overflow: hidden;
-
 }
 
 .menu a {
@@ -69,7 +65,7 @@ header {
     font-size: 2em;
 }
 
-.menu a:active {
+a:active {
     color: white;
 }
 
@@ -79,7 +75,6 @@ header {
 }
 
 .hamb {
-    cursor: pointer;
     float: right;
     padding: 23px 15px;
 }
@@ -157,30 +152,16 @@ h2 {
     font-size: 1.5em;
 }
 
-h3 {
-    margin-top: 1em;
-    text-align: center;
-    font-family: 'arf';
-    font-size: 1.2em;
-}
-
-
 p {
     font-family: 'inconsolata';
-    width: 90%;
     font-size: 0.8em;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;    
     padding: 0.5em;
     text-align: center;
     background-color: rgba(0,0,0,.1);
     border-radius: 5px;
-}
-
-div p {
-    margin: 0.5em;
 }
 
 main .img {
@@ -188,20 +169,14 @@ main .img {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    
+    margin-top: 1em;  
 }
-
-main .img {
-    margin-top: 1em;
-}
-
-
 
 main div img {
-    width: 80%;
+    width: 90%;
 }
 
-main .gallery {
+.gallery {
     width: 100%;
     overflow: auto;
     white-space: nowrap;
@@ -211,12 +186,6 @@ main .gallery {
 
 .gallery img {
     margin: 0.5em;
-}
-
-
-.review footer div {
-    /* background-image: linear-gradient(#92bec3, white); */
-    background-color: #7ea8ac;
 }
 
 .review {
@@ -233,13 +202,15 @@ main .gallery {
     margin-right: auto;
 }
 
+.review footer  {
+    background-color: #7ea8ac;
+}
+
 .center {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 2em;
-    /* margin-top: 2em;
-    margin-bottom: 2em; */
 }
 
 main div {
@@ -248,7 +219,6 @@ main div {
     justify-content: center;
     align-items: center;
     display: flex;
-    /* width: 90%; */
 }
 
 .img-review {
@@ -269,8 +239,6 @@ main div {
     width: 50%;
 }
 
- 
-
 .img-ik {
     margin-top: 1em;
     display: block;
@@ -282,27 +250,22 @@ main div {
 .over-mij p {
     margin-bottom: 1em;
     margin-top: 1em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    text-align: center;
 }
 
-footer div {
-    /* margin-top: 4em; */
+footer {
     padding: 0.5em;
-    /* background-image: linear-gradient( #f9c9df, #fcf3f6); */
     background-color: #dfaec5;
 }
 
-.footerimage {
+footer img {
     display: block;
     width: 10%;
     margin-left: auto;
     margin-right: auto;
+    padding: 0.2em;
 }
 
-.footernav {
+footer ul {
     display: flex;
     justify-content: center;
 }
@@ -311,12 +274,4 @@ footer a {
     margin: 1em;
     color: black;
     font-family: 'lalezar';
-}
-
-footer a:hover {
-    color: #e9d4db;
-}
-
-footer a:active {
-    color: white;
 }
