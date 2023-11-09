@@ -177,7 +177,6 @@ p {
     text-align: center;
     background-color: rgba(0,0,0,.1);
     border-radius: 5px;
-
 }
 
 div p {
@@ -211,7 +210,7 @@ main .gallery {
 }
 
 .gallery img {
-    margin: 1em;
+    margin: 0.5em;
 }
 
 
@@ -272,7 +271,7 @@ main div {
 
  
 
-.over-mij main img:first-child {
+.img-ik {
     margin-top: 1em;
     display: block;
     width: 50%;
