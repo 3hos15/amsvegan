@@ -41,7 +41,7 @@ ul {
 header {
     font-family: 'arf';
     background-color: white;
-    box-shadow: 1px 1px 5px 0px #e9d4db;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,.2);
     position: sticky;
     top: 0;
     width: 100%;
@@ -173,8 +173,15 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    padding: 0.5em;
     text-align: center;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 5px;
 
+}
+
+div p {
+    margin: 0.5em;
 }
 
 main .img {
@@ -188,23 +195,6 @@ main .img {
 main .img {
     margin-top: 1em;
 }
-
-.img:active {
-    scale: 2;
-}
-/* .round {
-    width: 50%;
-    border-radius: 50%;
-} */
-
-
-
-/* main section p {
-    margin-top: 0;
-    justify-content: center;
-    text-align: center;
-    width: 60%;
-} */
 
 
 
@@ -227,7 +217,7 @@ main .gallery {
 
 .review footer div {
     /* background-image: linear-gradient(#92bec3, white); */
-background-color: #7ea8ac;
+    background-color: #7ea8ac;
 }
 
 .review {
@@ -262,9 +252,25 @@ main div {
     /* width: 90%; */
 }
 
-.review section div img {
+.img-review {
+    margin-left: 0.5em; 
+    margin-right: 0.5em;
+    width: 45%;
+}
+
+.img-vjfb {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
     width: 30%;
 }
+
+.img-reviewtwee {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 50%;
+}
+
+ 
 
 .over-mij main img:first-child {
     margin-top: 1em;
