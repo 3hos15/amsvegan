@@ -189,6 +189,14 @@ main .img {
     margin-top: 1em;
 }
 
+.img:active {
+    scale: 2;
+}
+/* .round {
+    width: 50%;
+    border-radius: 50%;
+} */
+
 
 
 /* main section p {
@@ -277,7 +285,7 @@ main div {
 
 footer div {
     /* margin-top: 4em; */
-    padding: 1em;
+    padding: 0.5em;
     /* background-image: linear-gradient( #f9c9df, #fcf3f6); */
     background-color: #dfaec5;
 }
@@ -296,4 +304,14 @@ footer div {
 
 footer a {
     margin: 1em;
+    color: black;
+    font-family: 'lalezar';
+}
+
+footer a:hover {
+    color: #e9d4db;
+}
+
+footer a:active {
+    color: white;
 }
